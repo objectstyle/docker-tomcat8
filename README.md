@@ -1,2 +1,2 @@
-# docker-tomcat8
-ObjectStyle Tomcat 8 Image
+# ObjectStyle Tomcat 8 Docker Image
+This is a Tomcat 8 Docker image for ObjectStyle [site](http://www.objectstyle.com/). Built on top of [objectstyle/java8](https://hub.docker.com/r/objectstyle/java8/) image.
