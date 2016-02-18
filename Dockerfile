@@ -4,9 +4,8 @@ MAINTAINER Andrus Adamchik <andrus at objectstyle dot com>
 
 LABEL name=objectstyle-tomcat8
 
-RUN yum -y install tar \
-	&& yum -y update \
-	&& yum clean all
+RUN yum -y install tar
+RUN yum -y update; yum clean all
 
 ENV CATALINA_HOME /usr/local/tomcat
 ENV PATH $CATALINA_HOME/bin:$PATH
